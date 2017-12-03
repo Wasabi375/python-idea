@@ -29,7 +29,7 @@
   <actions>
     <!-- Add your actions here -->
     <group id="de.wasabi375.pythonidea" text="_Python"><add-to-group group-id="MainMenu" anchor="last"/></group>
-    <action id="de.wasabi375.pythonidea.Eval" class="de.wasabi375.pythonidea.Eval" text="Evaluate Python"
+    <action id="de.wasabi375.pythonidea.EvalAction" class="de.wasabi375.pythonidea.EvalAction" text="Evaluate Python"
             description="Evaluates the selected Text and replaces it with the result or if no text is selected opens an Editor">
       <keyboard-shortcut first-keystroke="shift meta P" keymap="Mac OS X 10.5+" />
       <keyboard-shortcut first-keystroke="shift control P" keymap="$default" />
